@@ -9,7 +9,7 @@ export default function Home() {
       <main className="h-full flex flex-col items-center justify-center gap-3">
         <h1>Welcome to Truss Tool</h1>
           
-        <Button title="Create a new project" icon={ FilePlusIcon } />
+        <Button title="Create a new project" icon={ FilePlusIcon } path="new" titleVis={ true } />
       </main>
 
       <footer className="w-full text-right p-2">

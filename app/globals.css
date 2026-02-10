@@ -29,4 +29,5 @@ body {
 @layer base {
   h1 { @apply text-3xl font-bold }
   p { @apply text-lg }
+  button { @apply cursor-pointer }
 }
